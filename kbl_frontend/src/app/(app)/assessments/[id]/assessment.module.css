@@ -1,10 +1,11 @@
 .assessment-container {
   width: 100%;
+  min-height: 100vh;
   background-color: #f8fafc;
+  padding: 2rem 1rem;
 }
 
 .wizard-page {
-  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -327,6 +328,15 @@
 }
 .nav-button-secondary:hover { 
   background-color: #f8fafc; 
+}
+
+.nav-button-tertiary { 
+  background-color: transparent;
+  color: #64748b; 
+}
+.nav-button-tertiary:hover { 
+  background-color: #f8fafc; 
+  color: #334155;
 }
 
 .upload-zone-container { margin-top: 2rem; padding-top: 1rem; border-top: 1px dashed #e2e8f0; }
