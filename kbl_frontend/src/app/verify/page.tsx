@@ -11,7 +11,7 @@ export default function VerifyPage() {
       <div className={styles.wrapper}>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
           <Link href="/">
-            <Image src="/kbl-logo-blue.png" alt="KBL Logo" width={100} height={40} priority />
+            <Image src="/kbl-logo-white.png" alt="KBL Logo" width={120} height={60} priority />
           </Link>
         </div>
         <h1 className={styles.title}>Check your email</h1>
