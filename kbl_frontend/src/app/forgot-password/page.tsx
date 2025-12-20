@@ -46,10 +46,10 @@ export default function ForgotPasswordPage() {
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
           <Link href="/">
             <Image
-              src="/kbl-logo-blue.png"
+              src="/kbl-logo-white.png"
               alt="KBL Logo"
-              width={80}
-              height={40}
+              width={120}
+              height={60}
               priority
             />
           </Link>
